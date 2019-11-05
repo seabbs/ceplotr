@@ -1,0 +1,34 @@
+url: samabbott.co.uk/ceplotr/
+template:
+  params:
+    bootswatch: lumen
+    docsearch:
+      api_key: 6c737a6c632ea7eab75c912a6b07b5f1
+      index_name: ceplotr
+
+development:
+  mode: devel
+  
+navbar:
+  type: inverse
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Getting Started"
+      href: articles/intro.html
+    - text: News
+      menu:
+      - text: "Change log"
+        href: news/index.html
+    - icon: fa-file-code-o 
+      text: "Functions"
+      href: reference/index.html
+        
+reference:
+    - title: Dashboards
+      desc: Launch interactive dashboards showcasing package functionality. These dashboards require the shiny package.
+      contents:
+      - ce_dashboard
+    - title: Package Data
+      desc: Data supplied with the package.
+      contents:
