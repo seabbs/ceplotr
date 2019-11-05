@@ -4,7 +4,7 @@
 [![badge](https://img.shields.io/badge/Launch-ceplotr-blue.svg)](https://mybinder.org/v2/gh/seabbs/ceplotr/master?urlpath=rstudio)
 [![CRAN\_Release\_Badge](http://www.r-pkg.org/badges/version-ago/ceplotr)](https://CRAN.R-project.org/package=ceplotr)
 [![develVersion](https://img.shields.io/badge/devel%20version-0.1.0-blue.svg?style=flat)](https://github.com/seabbs/ceplotr)
-[![DOI](https://zenodo.org/badge/112591837.svg)](https://zenodo.org/badge/latestdoi/112591837)
+[![DOI](https://zenodo.org/badge/219757940.svg)](https://zenodo.org/badge/latestdoi/219757940)
 [![metacran monthly
 downloads](http://cranlogs.r-pkg.org/badges/ceplotr)](https://cran.r-project.org/package=ceplotr)
 [![metacran
