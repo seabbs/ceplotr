@@ -1,0 +1,19 @@
+---
+title: "Integrating {ceplotr} with {idmodelr}"
+author: "Sam Abbott"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Integrating {ceplotr} with {idmodelr}}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE, comment = "#>",
+  fig.width = 7, fig.height = 7, 
+  fig.align = "center"
+)
+```
+

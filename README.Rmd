@@ -10,7 +10,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# ceplotr:  <img src="man/figures/logo.png" align="right" alt="" width="120" />
+# `{ceplotr}`: Modular model agnostic plotting for cost effectiveness analysis <img src="man/figures/logo.png" align="right" alt="" width="120" />
 
 [![badge](https://img.shields.io/badge/Launch-ceplotr-blue.svg)](https://mybinder.org/v2/gh/seabbs/ceplotr/master?urlpath=rstudio) 
 [![CRAN_Release_Badge](http://www.r-pkg.org/badges/version-ago/ceplotr)](https://CRAN.R-project.org/package=ceplotr)
@@ -65,7 +65,6 @@ See [Functions](https://www.samabbott.co.uk/ceplotr/reference/index.html) for mo
 ceplotr::cd_dashboard()
 ```
 
-![Snapshot of the integrated dashboard.](man/figures/ceplotr-dashboard.png)
 
 ## Contributing
 

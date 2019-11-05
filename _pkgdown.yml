@@ -25,10 +25,32 @@ navbar:
       href: reference/index.html
         
 reference:
+    - title: Example Datasets
+      desc: Datasets included in the package to act as examples of the supported formats
+      contents:
+      - starts_with("example_")
+    - title: Check Datasets
+      desc: Functions that check data structure.
+      contents:
+      - starts_with("check_")
+    - title: Munge Datasets
+      desc: Functions to transform user supplied datasets.
+      contents:
+      - combine_data
+    - title: Sensitivity Analysis
+      desc: Functions to run cost effectiveness sensitivity analysis
+      contents:
+      - test_prcc
+    - title: Produce Cost Effectiveness Plots
+      desc: Function to create cost effectiveness plots
+      contents:
+      - starts_with("plot_")
+    - title: S3 Methods
+      desc: Supported S3 methods
+      contents:
+      - plot.ceplotr_analysis
+      - summary.ceplotr_analysis
     - title: Dashboards
       desc: Launch interactive dashboards showcasing package functionality. These dashboards require the shiny package.
       contents:
       - ce_dashboard
-    - title: Package Data
-      desc: Data supplied with the package.
-      contents:

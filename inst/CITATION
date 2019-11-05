@@ -3,7 +3,7 @@ citHeader("To cite ceplotr in publications use:")
 citEntry(entry = "Article",
   title        = "ceplotr",
   author       = personList(as.person("Sam Abbott")),
-  journal      = "",
+  journal      = "-",
   year         = "2019",
   volume       = "",
   number       = "",
@@ -13,6 +13,6 @@ citEntry(entry = "Article",
   textVersion  =
   paste("Sam Abbott (2019).",
         "ceplotr",
-        "",
-        "")
+        "-",
+        "-")
 )

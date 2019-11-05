@@ -4,11 +4,11 @@
 \name{ceplotr-package}
 \alias{ceplotr}
 \alias{ceplotr-package}
-\title{ceplotr: Tmp}
+\title{ceplotr: Modular Model Agnostic Plotting for Cost Effectiveness Analysis}
 \description{
 \if{html}{\figure{logo.png}{options: align='right'}}
 
-Tmp
+Modular model agnostic plotting for cost effectiveness analysis.
 }
 \seealso{
 Useful links:
