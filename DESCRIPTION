@@ -1,13 +1,13 @@
 Type: Package
 Package: ceplotr
-Title: Modular Model Agnostic Plotting for Cost Effectiveness Analysis
+Title: Model Agnostic Plotting for Cost Effectiveness Analysis
 Version: 0.1.0
 Authors@R: c(
     person(given = "Sam Abbott",
            role = c("aut", "cre"),
            email = "contact@samabbott.co.uk",
            comment = c(ORCID = "0000-0001-8057-8037")))
-Description: Modular model agnostic plotting for cost effectiveness analysis.
+Description: Model agnostic plotting for cost effectiveness analysis.
 License: GPL-3 | file LICENSE
 URL: https://www.samabbott.co.uk/ceplotr,
     https://github.com/seabbs/ceplotr
@@ -17,10 +17,10 @@ Depends:
 Imports: 
     magrittr (>= 1.5),
     stats,
-    dplyr,
-    tidyr,
-    epiR,
-    ggplot2
+    dplyr (>= 0.8.3),
+    tidyr (>= 1.0.0),
+    epiR (>= 1.0.4),
+    ggplot2 (>= 3.2.1)
 Suggests:
     spelling (>= 2.1),
     covr (>= 3.3.2),
@@ -32,7 +32,7 @@ Suggests:
     shiny (>= 1.4.0),
     testthat (>= 2.2.1),
     vdiffr (>= 0.3.1),
-    tidyverse
+    tidyverse (>= 1.2.1)
 VignetteBuilder: 
     knitr
 Encoding: UTF-8

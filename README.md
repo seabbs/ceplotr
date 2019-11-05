@@ -1,5 +1,5 @@
 
-# `{ceplotr}`: Modular model agnostic plotting for cost effectiveness analysis <img src="man/figures/logo.png" align="right" alt="" width="120" />
+# `{ceplotr}`: Model agnostic plotting for cost effectiveness analysis <img src="man/figures/logo.png" align="right" alt="" width="120" />
 
 [![badge](https://img.shields.io/badge/Launch-ceplotr-blue.svg)](https://mybinder.org/v2/gh/seabbs/ceplotr/master?urlpath=rstudio)
 [![CRAN\_Release\_Badge](http://www.r-pkg.org/badges/version-ago/ceplotr)](https://CRAN.R-project.org/package=ceplotr)
@@ -9,6 +9,21 @@
 downloads](http://cranlogs.r-pkg.org/badges/ceplotr)](https://cran.r-project.org/package=ceplotr)
 [![metacran
 downloads](http://cranlogs.r-pkg.org/badges/grand-total/ceplotr?color=ff69b4)](https://cran.r-project.org/package=ceplotr)
+
+This package aims to:
+
+  - Provide standarised modular plotting functions for cost
+    effectiveness analysis.
+  - Support a single data format which is model and application
+    agnostic.
+  - Provide data transformation tooling to support cost effectiveness
+    analysis.
+  - Support converting model simulations, costs, etc. into this standard
+    format.
+  - Provide detailed documentation of all functionality.
+  - Support interactive use via an interface.
+  - Be modular, user modfiable and extendable.
+  - Be fully tested, reliable and easy to use.
 
 For help getting started see the [Getting
 Started](https://www.samabbott.co.uk/ceplotr/articles/intro.html)

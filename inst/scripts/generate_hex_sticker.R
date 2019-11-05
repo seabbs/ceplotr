@@ -3,11 +3,21 @@
 
 library(ceplotr)
 library(hexSticker)
+library(ggplot2)
 
+
+# Make plot ---------------------------------------------------------------
+
+plot <- example_simulation %>% 
+        ggplot() + 
+        labs(x = "", y = "") +
+        theme_void() + theme_transparent()+
+        theme(legend.position = "none",
+              panel.background = element_blank()) 
 
 # Make sticker ------------------------------------------------------------
 
-sticker( 
+sticker(subplot = plot,
         package = "ceplotr", 
         p_size = 18, 
         p_color = "#FFFFFFDD",

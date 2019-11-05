@@ -4,12 +4,13 @@
 \alias{test_prcc}
 \title{Test cost sensitivity using PRCC}
 \usage{
-test_prcc(df = NULL, obs = NULL, target_time = NULL)
+test_prcc(df = NULL, params = NULL, target_time = NULL)
 }
 \arguments{
-\item{df}{A dataframe}
+\item{df}{A dataframe of cost effectiveness data. As produced by \code{combine_data}.}
 
-\item{obs}{A character string containing the observation to use to calculate the PRCC.}
+\item{params}{A dataframe of parameters used to generate model simulations. See \code{example_parameters} for
+an example dataset}
 
 \item{target_time}{Numeric, the time at which to estimate the model sensitivity. If not specified
 then this will default to the last fitted point that the model has produced output for.}

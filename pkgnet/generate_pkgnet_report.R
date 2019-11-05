@@ -1,4 +1,3 @@
-# remotes::install_github("seabbs/getTBinR")
 library(pkgnet)
 library(dplyr)
 ## remotes::install_github("jimhester/itdepends")

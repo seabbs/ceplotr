@@ -1,7 +1,7 @@
 default: all
 RDIR = .
 
-all: example_simulation.csv example_costs.csv example_health_utility.csv
+all: example_simulation.csv example_costs.csv example_health_utility.csv example_parameters.csv
 
 ## Update example simulations
 example_simulation.csv: example_simulation.R
@@ -14,3 +14,7 @@ example_costs.csv: example_costs.R
 ## Update example health ultities			
 example_health_utility.csv: example_health_utility.R
 			Rscript example_health_utility.R
+			
+## Update example health ultities			
+example_parameters.csv: example_parameters.R
+			Rscript example_parameters.R

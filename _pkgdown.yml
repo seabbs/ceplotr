@@ -7,7 +7,7 @@ template:
       index_name: ceplotr
 
 development:
-  mode: devel
+  mode: release
   
 navbar:
   type: inverse
