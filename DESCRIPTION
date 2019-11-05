@@ -1,7 +1,7 @@
 Type: Package
 Package: ceplotr
 Title: Modular Model Agnostic Plotting for Cost Effectiveness Analysis
-Version: 0.7.1
+Version: 0.1.0
 Authors@R: c(
     person(given = "Sam Abbott",
            role = c("aut", "cre"),
