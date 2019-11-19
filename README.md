@@ -10,6 +10,8 @@ downloads](http://cranlogs.r-pkg.org/badges/ceplotr)](https://cran.r-project.org
 [![metacran
 downloads](http://cranlogs.r-pkg.org/badges/grand-total/ceplotr?color=ff69b4)](https://cran.r-project.org/package=ceplotr)
 
+**This package was outlined ahead of the HE Hackathon 2019 @Imperial. After a group discussion it was not continued in favour of aiming to improve documentation + testing for [BCEA](https://cran.r-project.org/web/packages/BCEA/index.html)** 
+
 This package aims to:
 
   - Provide standarised modular plotting functions for cost
